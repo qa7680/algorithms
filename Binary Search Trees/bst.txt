@@ -1,0 +1,7 @@
+Binary search trees
+
+Balanced binary search trees
+
+Find the middle element of an array and make it the root of the tree,
+perform the same operation for the roots left child and for the right child as well.
+

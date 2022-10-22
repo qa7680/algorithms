@@ -1,0 +1,25 @@
+/*  one of the fundamental data structures 
+    similar to an array. elements can be inserted or removed without reallocation of 
+    other elements. when arrays become too big, using a linked list is a good idea(however 
+    not a necessity in js).
+
+    simplest of the dynamic data structures
+
+    linear collection of data elements called nodes.
+    nodes point to the next node by means of a pointer.
+    each node holds a single element of data and a link or pointer to the next node in the list.
+    a head node is the first node in the list.
+    a tail node is the last node in the list.
+
+    NODE(head) => NODE => NODE(tail) => null
+
+    arrays = static data structures
+    linked lists = dynamic data structures
+
+    "A node only knows about what data it contains and who its neighbor is."
+
+    Singly linked list: go one direction
+    Doubly linked list: can go to the previous node 
+    Circular linked list: doesn't end with a node pointing to a null value. has a tail that references
+    the beginning of the list.
+*/
